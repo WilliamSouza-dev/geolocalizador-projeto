@@ -1,4 +1,62 @@
-#map {
-    height: 700px; 
-    width: 80%;
+body {
+    padding: 0;
+    margin: 0;
 }
+html, body{
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(199, 199, 199);
+}
+
+#map {
+    height: 60%; 
+    width: 100%;
+    border-bottom: 5px solid #484848;
+}
+
+
+/* legenda */
+.legend {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .legend h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .legend ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .legend li {
+    margin-bottom: 5px;
+  }
+  
+  .legend-item {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  /* Exemplo de cores para os itens da legenda */
+  .color1 {
+    background-color: #ff0000;
+  }
+  
+  .color2 {
+    background-color: #00FF00;
+  }
+  
+  .color3 {
+    background-color: #0000ff;
+  }
